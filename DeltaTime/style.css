@@ -1,0 +1,86 @@
+@font-face {font-family:"Fort Quinsy";src:url("FORTQUINSY.eot?") format("eot"),url("FORTQUINSY.woff") format("woff"),url("FORTQUINSY.ttf") format("truetype"),
+    url("FORTQUINSY.svg#FortQuinsyRegular") 
+    format("svg");font-weight:normal;font-style:normal;}
+
+ *{
+     padding: 0;
+     margin: 0;
+ }
+
+body{
+   width: 100%;
+   height: auto;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', sans-serif;
+}
+
+li{
+    list-style-type: none;
+    color: white;
+}
+
+
+/* NAVIGATION BAR */
+
+nav{
+    background-color : black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    opacity: 0.7;
+}
+
+header li{
+    float: right;
+    font-size: 1.2em;
+}
+
+header li a {
+    text-decoration: none;
+    color : white;
+    display: block;
+    text-align: center;
+    padding : 18px 16px;
+    font-family: monospace;
+}
+
+
+#logo{
+    font-family: monospace;
+    font-weight: lighter;
+    float: left;
+}
+
+/* IMAGE PRINCIPALE */
+
+.box{
+    background-image: url(media/background_full.jpg);
+    background-size: cover;
+    padding: 15%;
+    width: auto;
+    height: auto;
+  
+}
+
+#h1{
+    font-family: 'Fort Quinsy', sans-serif;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 6em;
+    margin-top: 50px;
+    text-shadow: 1px 2px 10px black;;
+}
+
+#h2{
+    font-family: 'Fort Quinsy', sans-serif;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    margin-top: 50px;
+    text-shadow: 1px 2px 10px black;;
+}
